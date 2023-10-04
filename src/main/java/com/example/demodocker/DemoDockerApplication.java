@@ -11,7 +11,7 @@ public class DemoDockerApplication {
 
 	@GetMapping("/getMessage")
 	public String displayMessage(){
-		return "Project Application running on Docker container";
+		return "Project Application running on Docker container1";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(DemoDockerApplication.class, args);
